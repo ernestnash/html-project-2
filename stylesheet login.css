@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='800' preserveAspectRatio='none' viewBox='0 0 1440 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1941%26quot%3b)' fill='none'%3e%3crect width='1440' height='800' x='0' y='0' fill='url(%23SvgjsLinearGradient1942)'%3e%3c/rect%3e%3cpath d='M1512 800L0 800 L0 516.78Q1.54 446.32%2c 72 447.86Q111.24 367.11%2c 192 406.35Q239.09 381.44%2c 264 428.53Q333.44 425.97%2c 336 495.41Q368.63 408.04%2c 456 440.66Q482.37 395.03%2c 528 421.4Q577.58 350.98%2c 648 400.55Q737.63 370.18%2c 768 459.8Q792.58 364.38%2c 888 388.97Q929.73 358.7%2c 960 400.43Q1029.52 349.95%2c 1080 419.47Q1161.16 428.63%2c 1152 509.8Q1195.21 481.01%2c 1224 524.23Q1244.43 472.67%2c 1296 493.1Q1338.71 463.81%2c 1368 506.53Q1390.68 457.21%2c 1440 479.9Q1446.62 414.51%2c 1512 421.13z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1512 800L0 800 L0 585.66Q20.5 486.16%2c 120 506.67Q162.24 476.91%2c 192 519.16Q248.75 503.9%2c 264 560.65Q340.22 516.87%2c 384 593.08Q385.44 522.52%2c 456 523.95Q504.93 452.88%2c 576 501.82Q665.6 471.42%2c 696 561.02Q761.04 506.06%2c 816 571.1Q828.68 511.78%2c 888 524.46Q917.04 481.5%2c 960 510.55Q990.55 469.1%2c 1032 499.64Q1094.28 489.92%2c 1104 552.2Q1128.83 505.03%2c 1176 529.85Q1257.63 491.48%2c 1296 573.11Q1319.8 524.9%2c 1368 548.7Q1391.76 500.46%2c 1440 524.21Q1461.25 473.46%2c 1512 494.71z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1464 800L0 800 L0 727.6Q-27.09 628.51%2c 72 601.43Q107.38 564.8%2c 144 600.18Q213.03 597.21%2c 216 666.25Q263.13 593.38%2c 336 640.5Q430.09 614.59%2c 456 708.68Q497.91 630.59%2c 576 672.5Q615.6 592.1%2c 696 631.7Q742.69 558.39%2c 816 605.08Q873.33 590.41%2c 888 647.74Q956.98 644.72%2c 960 713.7Q1006.34 688.04%2c 1032 734.38Q1063.6 645.98%2c 1152 677.58Q1177.01 582.59%2c 1272 607.59Q1302.41 566%2c 1344 596.42Q1429.77 562.19%2c 1464 647.96z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1560 800L0 800 L0 837.23Q19.86 737.09%2c 120 756.94Q196.54 713.49%2c 240 790.03Q307.05 737.08%2c 360 804.12Q371.26 695.38%2c 480 706.65Q545.72 652.37%2c 600 718.08Q703.13 701.21%2c 720 804.33Q746.05 710.38%2c 840 736.44Q912.43 688.87%2c 960 761.3Q992.75 674.05%2c 1080 706.8Q1148.85 655.65%2c 1200 724.5Q1285.87 690.37%2c 1320 776.24Q1347.46 683.7%2c 1440 711.16Q1519.6 670.75%2c 1560 750.35z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1941'%3e%3crect width='1440' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='11.11%25' y1='-20%25' x2='88.89%25' y2='120%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1942'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(138%2c 13%2c 255%2c 0.85)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");}
+.box{
+    width:300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 25px;
+    background: linear-gradient(225deg, #3a3981, #31306d);
+    box-shadow:  -35px 35px 91px #4f4e8b,
+                35px -35px 91px #6b6abb;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.box input[type="email"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid orchid;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="email"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #dfff80;
+}
+.box button[type="Submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #80ffcc;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box button[type="submit"]:hover{
+    background: turquoise;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #dfff80;
+}
+@media (max-width:584px){
+    .box{
+        max-width: 100%;
+    }
+}
